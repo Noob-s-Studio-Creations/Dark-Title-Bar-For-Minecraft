@@ -42,9 +42,9 @@ public class DarkTitleBarForMinecraftClient implements ClientModInitializer {
                             4
                     );
 
-                    System.out.println("Windows Dark Title Bar Enabled!");
+                    System.out.println("Injected Dark Title Bar!");
                 } catch (Throwable t) {
-                    System.out.println("Dark Title Bar Failed (Probably Not Windows)");
+                    System.out.println("Dark Title Bar Injection Failed...");
                 }
             }
         });
