@@ -16,7 +16,8 @@ public class DarkBarCommands {
 
                     return 1;
                 }))
-                .then(literal("lignt").executes(ctx -> {
+                
+                .then(literal("light").executes(ctx -> {
                     TitleBarController.setDark(false);
 
                     DarkTitleBarForMinecraftClient.config.darkBarEnabled = false;

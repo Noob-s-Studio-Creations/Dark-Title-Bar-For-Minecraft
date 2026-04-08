@@ -24,7 +24,7 @@ public class TitleBarController {
 
             System.out.println("[Dark Title Bar For Minecraft]: Title Bar Theme Was Set To " + (enabled ? "Dark" : "Light"));
         } catch (Throwable t) {
-            System.out.println("[Dark Title Bar For Minecraft]: Failed To Apply The Theme! (Not Windows?)");
+            System.out.println("[Dark Title Bar For Minecraft]: Failed To Apply The Theme! (Is It Windows System?)");
         }
     }
 }
