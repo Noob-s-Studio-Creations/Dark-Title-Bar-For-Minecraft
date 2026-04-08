@@ -27,7 +27,7 @@
 
 ---
 
-**Well... This Plugin Was Only On [Modrinth](https://modrinth.com/mod/dark-title-bar-for-minecraft) And [GitHub](https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft)**
+**Well... This Plugin Was Only On [Modrinth](https://modrinth.com/mod/darktitlebar-forminecraft) And [GitHub](https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft)**
 
 **If You See This Someware Else It's Might Be A Fork With A Slower Updating**
 
