@@ -10,6 +10,7 @@ public class DarkBarCommands {
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
             dispatcher.register(
                 LiteralArgumentBuilder.<FabricClientCommandSource>literal("darkbar")
+                
                 .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("dark")
                     .executes(ctx -> {
                         TitleBarController.setDark(true);
