@@ -18,8 +18,7 @@
 
 - **Java 25**
 - **[Fabric API](https://modrinth.com/mod/fabric-api)**
-- **Fabric Loader 0.18.0+**
-- **[ModMenu](https://modrinth.com/mod/modmenu)**
+- **Fabric Loader 0.18.4+**
 
 ## **Commands**
 
@@ -27,8 +26,10 @@
 
 ---
 
-**Well... This Plugin Was Only On [Modrinth](https://modrinth.com/mod/darktitlebar-forminecraft) And [GitHub](https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft)**
+**Well... This Mod Was Only On [Modrinth](https://modrinth.com/mod/darktitlebar-forminecraft) And [GitHub](https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft)**
 
-**If You See This Someware Else It's Might Be A Fork With A Slower Updating**
+**If You See This Someware Else... It's Might Be A Fork With A Slower Updating**
+
+---
 
 **DISCLAIMER: THIS IS NOT A FORK OF [darktitlebar](https://modrinth.com/mod/darktitlebar) OR [darktitlebar-forge](https://modrinth.com/mod/darktitlebar-forge) I MAKE THIS BY MYSELF**
