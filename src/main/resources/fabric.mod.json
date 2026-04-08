@@ -5,15 +5,14 @@
 	"name": "Dark Title Bar For Minecraft",
 	"description": "Just Some Mod That Turn Your Windows Title Bar To Dark Theme",
 	"authors": [
-		"PrayoadMii",
-		"ChatGPT"
+		"PrayoadMii"
 	],
 	"contact": {
 		"homepage": "https://prayoadmii.qzz.io/",
 		"sources": "https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/dark-title-bar-for-minecraft/icon.png",
+	"icon": "assets/icon.png",
 	"environment": "client",
 	"entrypoints": {
 			"client": [
@@ -30,6 +29,7 @@
 		"fabricloader": ">=0.18.0",
 		"minecraft": "~1.21.11",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"modmenu": "*"
 	}
 }
