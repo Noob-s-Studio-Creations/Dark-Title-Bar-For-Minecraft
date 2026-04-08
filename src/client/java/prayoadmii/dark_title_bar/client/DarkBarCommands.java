@@ -1,30 +1,36 @@
 package prayoadmii.dark_title_bar.client;
 
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
+import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 
-import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.literal;
+import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 
 public class DarkBarCommands {
     public static void register() {
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
-            dispatcher.register(literal("darkbar")
-                .then(literal("dark").executes(ctx -> {
-                    TitleBarController.setDark(true);
+            dispatcher.register(
+                LiteralArgumentBuilder.<FabricClientCommandSource>literal("darkbar")
+                .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("dark")
+                    .executes(ctx -> {
+                        TitleBarController.setDark(true);
 
-                    DarkTitleBarForMinecraftClient.config.darkBarEnabled = true;
-                    DarkTitleBarForMinecraftClient.config.save();
+                        DarkTitleBarForMinecraftClient.config.darkBarEnabled = true;
+                        DarkTitleBarForMinecraftClient.config.save();
 
-                    return 1;
-                }))
-                
-                .then(literal("light").executes(ctx -> {
-                    TitleBarController.setDark(false);
+                        return 1;
+                    })
+                )
 
-                    DarkTitleBarForMinecraftClient.config.darkBarEnabled = false;
-                    DarkTitleBarForMinecraftClient.config.save();
+                .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("light")
+                    .executes(ctx -> {
+                        TitleBarController.setDark(false);
 
-                    return 1;
-                }))
+                        DarkTitleBarForMinecraftClient.config.darkBarEnabled = false;
+                        DarkTitleBarForMinecraftClient.config.save();
+
+                        return 1;
+                    })
+                )
             );
         });
     }

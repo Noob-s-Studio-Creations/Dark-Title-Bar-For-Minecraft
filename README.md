@@ -16,7 +16,7 @@
 
 ## **Requirements**
 
-- **Java 21**
+- **Java 25**
 - **[Fabric API](https://modrinth.com/mod/fabric-api)**
 - **Fabric Loader 0.18.0+**
 - **[ModMenu](https://modrinth.com/mod/modmenu)**

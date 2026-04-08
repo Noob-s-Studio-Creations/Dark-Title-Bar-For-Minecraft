@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"package": "prayoadmii.dark_title_bar.client.mixin",
-	"compatibilityLevel": "JAVA_21",
+	"compatibilityLevel": "JAVA_25",
 	"client": [],
 	"injectors": {
 		"defaultRequire": 1
