@@ -1,6 +1,7 @@
 package prayoadmii.dark_title_bar.client;
 
 import net.minecraft.client.Minecraft;
+
 import org.lwjgl.glfw.GLFWNativeWin32;
 
 import com.sun.jna.Pointer;

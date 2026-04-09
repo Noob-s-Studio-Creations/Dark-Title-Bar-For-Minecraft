@@ -4,6 +4,13 @@
 
 ---
 
+## **Badges I Add For Fun :P**
+
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://raw.githubusercontent.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft/refs/heads/main/LICENSE)
+[![Discord](https://img.shields.io/badge/Suggetions!-white?logo=discord&style=social)](https://discord.gg/vkFJhzFmYY)
+
+---
+
 ### **This Mod Only Work In Windows With Versions Bellow**
 - **Windows 10 1809+**
 - **Windows 11**
