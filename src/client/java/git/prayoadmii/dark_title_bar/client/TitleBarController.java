@@ -1,4 +1,4 @@
-package prayoadmii.dark_title_bar.client;
+package git.prayoadmii.dark_title_bar.client;
 
 import net.minecraft.client.Minecraft;
 

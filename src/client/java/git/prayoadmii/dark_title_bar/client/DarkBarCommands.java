@@ -1,4 +1,4 @@
-package prayoadmii.dark_title_bar.client;
+package git.prayoadmii.dark_title_bar.client;
 
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;

@@ -17,7 +17,7 @@
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"prayoadmii.dark_title_bar.client.DarkTitleBarForMinecraftClient"
+			"git.prayoadmii.dark_title_bar.client.DarkTitleBarForMinecraftClient"
 		]
 	},
 	"mixins": [],
