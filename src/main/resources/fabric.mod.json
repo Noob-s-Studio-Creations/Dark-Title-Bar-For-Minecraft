@@ -3,7 +3,7 @@
 	"id": "dark-title-bar-for-minecraft",
 	"version": "${version}",
 	"name": "Dark Title Bar For Minecraft",
-	"description": "Just A Mod That Turn Your Window Title Bar To The New Windows Dark Theme :P",
+	"description": "Let's Save Your Eyes!\nYour Title Bar Never Flashbang At You Anymore!",
 	"authors": [
 		"PrayoadMii"
 	],
@@ -21,6 +21,14 @@
 		]
 	},
 	"mixins": [],
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/darktitlebar-forminecraft",
+				"modmenu.discord": "https://discord.gg/vkFJhzFmYY"
+			}
+		}
+	},
 	"depends": {
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~26.1.2",

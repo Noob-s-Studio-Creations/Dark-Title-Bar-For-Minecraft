@@ -3,8 +3,13 @@ package git.prayoadmii.dark_title_bar.client;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class DarkTitleBarForMinecraftClient implements ClientModInitializer {
     public static Config config;
+
+    public static final Logger LOGGER = LoggerFactory.getLogger("DarkBar");
 
     @Override
     public void onInitializeClient() {
@@ -12,7 +17,7 @@ public class DarkTitleBarForMinecraftClient implements ClientModInitializer {
 
         ClientTickEvents.END_CLIENT_TICK.register(new OneTimeDarkBar());
 
-        System.out.println("[Dark Title Bar For Minecraft]: Mod Are Now Loaded!");
+        LOGGER.info("Client Initialized Successfully!");
 
         DarkBarCommands.register();
     }
