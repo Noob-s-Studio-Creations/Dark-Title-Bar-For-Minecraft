@@ -33,7 +33,7 @@
 
 ---
 
-**Well... This Mod Was Only On [Modrinth](https://modrinth.com/mod/darktitlebar-forminecraft), [TLMods](https://tlmods.org/en/user/preliminary/gameentities/48176964/?type=MOD), [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/darktitlebar-forminecraft) And [GitHub](https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft)**
+**Well... This Mod Was Only On [Modrinth](https://modrinth.com/mod/darktitlebar-forminecraft), [TLMods](https://tlmods.org/en/user/preliminary/gameentities/48176964/?type=MOD) And [GitHub](https://github.com/Noob-s-Studio-Creations/Dark-Title-Bar-For-Minecraft)**
 
 **If You See This Someware Else... It's Might Be A Fork With A Slower Updating**
 
