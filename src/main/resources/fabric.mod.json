@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "dark-title-bar-for-minecraft",
+	"id": "darkbar",
 	"version": "${version}",
 	"name": "Dark Title Bar For Minecraft",
-	"description": "Let's Save Your Eyes!\nYour Title Bar Never Flashbang At You Anymore!",
+	"description": "Let's Save Your Eyes!\nThe Title Bar Will Not Flashbang At You Anymore!\n\n(But Don't Lag Minecraft Or It Will Turn White Again? XD)",
 	"authors": [
 		"PrayoadMii"
 	],
@@ -17,7 +17,7 @@
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"git.prayoadmii.dark_title_bar.client.DarkTitleBarForMinecraftClient"
+			"git.prayoadmii.darkbar.client.DarkBarMain"
 		]
 	},
 	"mixins": [],

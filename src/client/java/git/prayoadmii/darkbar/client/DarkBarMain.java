@@ -1,4 +1,4 @@
-package git.prayoadmii.dark_title_bar.client;
+package git.prayoadmii.darkbar.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -6,7 +6,11 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DarkTitleBarForMinecraftClient implements ClientModInitializer {
+import git.prayoadmii.darkbar.client.controller.DarkBarCommands;
+import git.prayoadmii.darkbar.client.controller.TitleBarController;
+import git.prayoadmii.darkbar.client.helper.Config;
+
+public class DarkBarMain implements ClientModInitializer {
     public static Config config;
 
     public static final Logger LOGGER = LoggerFactory.getLogger("DarkBar");
@@ -28,7 +32,7 @@ public class DarkTitleBarForMinecraftClient implements ClientModInitializer {
         @Override
         public void onEndTick(net.minecraft.client.Minecraft client) {
             if (!applied && client.getWindow() != null && client.getWindow().handle() != 0) {
-                TitleBarController.setDark(DarkTitleBarForMinecraftClient.config.darkBarEnabled);
+                TitleBarController.setDark(DarkBarMain.config.darkBarEnabled);
 
                 applied = true;
             }

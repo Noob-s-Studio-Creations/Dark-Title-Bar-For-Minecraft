@@ -1,9 +1,11 @@
-package git.prayoadmii.dark_title_bar.client;
+package git.prayoadmii.darkbar.client.controller;
 
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
+
+import git.prayoadmii.darkbar.client.DarkBarMain;
 
 public class DarkBarCommands {
     public static void register() {
@@ -15,8 +17,8 @@ public class DarkBarCommands {
                     .executes(ctx -> {
                         TitleBarController.setDark(true);
 
-                        DarkTitleBarForMinecraftClient.config.darkBarEnabled = true;
-                        DarkTitleBarForMinecraftClient.config.save();
+                        DarkBarMain.config.darkBarEnabled = true;
+                        DarkBarMain.config.save();
 
                         return 1;
                     })
@@ -26,8 +28,8 @@ public class DarkBarCommands {
                     .executes(ctx -> {
                         TitleBarController.setDark(false);
 
-                        DarkTitleBarForMinecraftClient.config.darkBarEnabled = false;
-                        DarkTitleBarForMinecraftClient.config.save();
+                        DarkBarMain.config.darkBarEnabled = false;
+                        DarkBarMain.config.save();
 
                         return 1;
                     })

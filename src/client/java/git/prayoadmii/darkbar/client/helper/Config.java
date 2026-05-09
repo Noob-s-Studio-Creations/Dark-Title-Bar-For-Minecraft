@@ -1,4 +1,4 @@
-package git.prayoadmii.dark_title_bar.client;
+package git.prayoadmii.darkbar.client.helper;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "prayoadmii.dark_title_bar.client.mixin",
+	"package": "prayoadmii.darkbar.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [],
 	"injectors": {
