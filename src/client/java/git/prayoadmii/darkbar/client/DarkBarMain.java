@@ -21,6 +21,14 @@ public class DarkBarMain implements ClientModInitializer {
 
         ClientTickEvents.END_CLIENT_TICK.register(new OneTimeDarkBar());
 
+        String os = System.getProperty("os.name", "").toLowerCase();
+
+        if (!os.contains("win")) {
+            LOGGER.warn("DarkBar: Mod Disabled! Make Sure You're On Windows!");
+
+            return;
+        }
+
         LOGGER.info("Client Initialized Successfully!");
 
         DarkBarCommands.register();

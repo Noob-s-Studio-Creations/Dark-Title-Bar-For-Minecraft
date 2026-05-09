@@ -29,6 +29,14 @@ loom {
 		}
 	}
 
+	runs {
+		client {
+			vmArg "-Xms1G"
+			vmArg "-Xmx2G"
+			
+			programArg "--username=PrayoadMii"
+		}
+	}
 }
 
 dependencies {
