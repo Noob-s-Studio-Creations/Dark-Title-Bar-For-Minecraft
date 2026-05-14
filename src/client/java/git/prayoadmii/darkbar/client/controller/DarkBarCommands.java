@@ -1,5 +1,7 @@
 package git.prayoadmii.darkbar.client.controller;
 
+import net.minecraft.client.Minecraft;
+
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 
@@ -31,6 +33,17 @@ public class DarkBarCommands {
                         DarkBarMain.config.darkBarEnabled = false;
                         DarkBarMain.config.save();
 
+                        return 1;
+                    })
+                )
+
+                .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("config")
+                    .executes(ctx -> {
+                        Minecraft.getInstance().execute(() ->
+                            Minecraft.getInstance().setScreen(
+                                DarkBarConfigScreen.create(null)
+                            )
+                        );
                         return 1;
                     })
                 )

@@ -49,6 +49,12 @@ dependencies {
 	
 	implementation "net.java.dev.jna:jna:5.14.0"
 	implementation "net.java.dev.jna:jna-platform:5.14.0"
+
+	// YACL (Required)
+    implementation "dev.isxander:yet-another-config-lib:${yacl_version}"
+
+    // Mod Menu (Optional)
+    implementation "com.terraformersmc:modmenu:${modmenu_version}"
 }
 
 processResources {

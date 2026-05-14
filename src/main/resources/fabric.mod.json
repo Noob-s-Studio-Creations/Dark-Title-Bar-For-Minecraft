@@ -18,6 +18,9 @@
 	"entrypoints": {
 		"client": [
 			"git.prayoadmii.darkbar.client.DarkBarMain"
+		],
+		"modmenu": [
+			"git.prayoadmii.darkbar.client.DarkBarModMenu"
 		]
 	},
 	"mixins": [],
@@ -33,6 +36,8 @@
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~26.1.2",
 		"java": ">=25",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": "*",
+		"modmenu": "*"
 	}
 }
