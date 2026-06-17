@@ -1,3 +1,5 @@
+# **THIS MOD IS NO LONGER BE MAINTAINED DUE TO OWNER SWITCHED TO LINUX!**
+
 # **Dark Title Bar For Minecraft**
 
 **You're No Longer Need To Get Flashbang When You Look At Title Bar Anymore!**
