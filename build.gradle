@@ -17,6 +17,18 @@ repositories {
 	maven {url = "https://maven.fabricmc.net/"}
 	maven {url = "https://maven.terraformersmc.com/"}
 	maven {url = "https://maven.isxander.dev/releases"}
+
+	exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 loom {
@@ -30,10 +42,7 @@ loom {
 	}
 
 	runs {
-		client {
-			vmArg "-Xms1G"
-			vmArg "-Xmx2G"
-			
+		client {			
 			programArg "--username=PrayoadMii"
 		}
 	}
@@ -51,7 +60,8 @@ dependencies {
 	implementation "net.java.dev.jna:jna-platform:5.14.0"
 
 	// YACL (Required)
-    implementation "dev.isxander:yet-another-config-lib:${yacl_version}"
+    // implementation "dev.isxander:yet-another-config-lib:${yacl_version}"
+	implementation "maven.modrinth:1eAoo2KR:LlSShNCR"
 
     // Mod Menu (Optional)
     implementation "com.terraformersmc:modmenu:${modmenu_version}"
