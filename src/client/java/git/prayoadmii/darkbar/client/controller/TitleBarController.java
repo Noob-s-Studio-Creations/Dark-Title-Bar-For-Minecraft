@@ -19,7 +19,7 @@ public class TitleBarController {
         String os = System.getProperty("os.name", "").toLowerCase();
 
         if (!os.contains("win")) {
-            LOGGER.warn("DarkBar: Theme Apply Was Skipped! You Have To Run Mod On Windows Machine!");
+            LOGGER.warn("DarkBar: Theme Apply Was Skipped! You Have To Run The Mod On Windows Machine!");
 
             return;
         }

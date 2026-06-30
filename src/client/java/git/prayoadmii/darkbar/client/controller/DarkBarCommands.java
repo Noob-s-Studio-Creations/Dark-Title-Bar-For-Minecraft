@@ -37,16 +37,16 @@ public class DarkBarCommands {
                     })
                 )
 
-                // .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("config")
-                //     .executes(ctx -> {
-                //         Minecraft.getInstance().execute(() ->
-                //             Minecraft.getInstance().setScreen(
-                //                 DarkBarConfigScreen.create(null)
-                //             )
-                //         );
-                //         return 1;
-                //     })
-                // )
+                .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("config")
+                    .executes(ctx -> {
+                        Minecraft.getInstance().execute(() ->
+                            Minecraft.getInstance().setScreenAndShow(
+                                DarkBarConfigScreen.create(null)
+                            )
+                        );
+                        return 1;
+                    })
+                )
             );
         });
     }
