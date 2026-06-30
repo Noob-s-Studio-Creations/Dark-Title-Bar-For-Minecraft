@@ -25,7 +25,7 @@
 
 - **Java 25**
 - **[Fabric API](https://modrinth.com/mod/fabric-api)**
-- **Fabric Loader 0.18.4+**
+- **Fabric Loader 0.19.3+**
 
 ## **Commands**
 
