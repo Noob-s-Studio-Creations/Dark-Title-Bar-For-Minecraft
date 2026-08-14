@@ -40,7 +40,7 @@ public class DarkBarCommands {
                 .then(LiteralArgumentBuilder.<FabricClientCommandSource>literal("config")
                     .executes(ctx -> {
                         Minecraft.getInstance().execute(() ->
-                            Minecraft.getInstance().setScreenAndShow(
+                            Minecraft.getInstance().gui.setScreen(
                                 DarkBarConfigScreen.create(null)
                             )
                         );

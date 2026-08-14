@@ -36,9 +36,7 @@ public class DarkBarConfigScreen {
                 .build()
             )
             .save(() -> DarkBarMain.config.save())
-
             .build()
-
             .generateScreen(parent);
     }
 }

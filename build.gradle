@@ -21,7 +21,7 @@ repositories {
 		url = "https://maven.terraformersmc.com/"
 	}
 	maven {
-		url = "https://beta.maven.isxander.dev/releases"
+		url = "https://maven.isxander.dev/releases"
 	}
 
 	exclusiveContent {
