@@ -1,4 +1,4 @@
-package git.prayoadmii.darkbar.client.controller;
+package git.noobs_create.darkbar.client.controller;
 
 import net.minecraft.client.Minecraft;
 
@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 
-import git.prayoadmii.darkbar.client.DarkBarMain;
+import git.noobs_create.darkbar.client.DarkBarMain;
 
 public class DarkBarCommands {
     public static void register() {

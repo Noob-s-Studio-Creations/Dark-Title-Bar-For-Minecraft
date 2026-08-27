@@ -1,6 +1,6 @@
-package git.prayoadmii.darkbar.client.controller;
+package git.noobs_create.darkbar.client.controller;
 
-import git.prayoadmii.darkbar.client.helper.DwmApi;
+import git.noobs_create.darkbar.client.helper.DwmApi;
 
 import net.minecraft.client.Minecraft;
 

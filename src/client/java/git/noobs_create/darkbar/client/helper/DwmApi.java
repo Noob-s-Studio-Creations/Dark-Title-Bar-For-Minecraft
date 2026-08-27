@@ -1,4 +1,4 @@
-package git.prayoadmii.darkbar.client.helper;
+package git.noobs_create.darkbar.client.helper;
 
 import com.sun.jna.Library;
 import com.sun.jna.Native;

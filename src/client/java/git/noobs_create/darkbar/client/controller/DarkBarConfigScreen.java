@@ -1,9 +1,9 @@
-package git.prayoadmii.darkbar.client.controller;
+package git.noobs_create.darkbar.client.controller;
 
 import dev.isxander.yacl3.api.*;
 import dev.isxander.yacl3.api.controller.TickBoxControllerBuilder;
 
-import git.prayoadmii.darkbar.client.DarkBarMain;
+import git.noobs_create.darkbar.client.DarkBarMain;
 
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
